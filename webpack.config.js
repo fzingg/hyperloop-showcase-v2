@@ -7,9 +7,9 @@ module.exports = {
       client_and_server: "./webpack/client_and_server.js"
     },
     output: {
-      path: path.join(__dirname, 'app', 'assets',   'javascripts', 'webpack'),
+      path: path.join(__dirname, 'public', 'packs'),
       filename: "[name].js",
-      publicPath: "/webpack/"
+      publicPath: ""
     },
     module: {
       rules: [

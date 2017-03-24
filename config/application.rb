@@ -19,5 +19,6 @@ module HyperloopShowcaseV2
     # config.react.server_renderer_options = {
     #     files: ["hyperloop.js"] # if true, console.* will be replayed client-side
     #   }
+    config.assets.paths << ::Rails.root.join('public', 'packs').to_s
   end
 end

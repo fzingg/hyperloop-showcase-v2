@@ -1,8 +1,8 @@
 #require 'opal'
 #require 'react/react-source'
 #require 'hyper-react'
-require 'webpack/client_and_server.js'
-require 'reactrb/auto-import'
+#require 'webpack/client_and_server.js'
+#require 'reactrb/auto-import'
 #require 'hyper-operation'
 #require 'hyper-store'
 
