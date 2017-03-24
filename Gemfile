@@ -55,15 +55,22 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 #gem 'react-rails', '1.4.2'
-gem 'hyper-rails', git: 'https://github.com/ruby-hyperloop/hyper-rails.git'
-gem 'opal-rails', '0.9.1'
-gem 'opal-browser', '0.2.0'
-gem 'hyper-react', '0.11.0'
-gem 'hyper-mesh', '0.5.3'
-gem 'hyper-router', '2.4.0'
-#gem 'hyper-operation', git: 'https://github.com/ruby-hyperloop/hyper-operation.git'
-#gem 'hyper-store', git: 'https://github.com/ruby-hyperloop/hyper-store.git'
-gem 'therubyracer', platforms: :ruby
+
+# gem 'hyperloop-config'
+# gem 'hyper-component'
+# gem 'hyper-operation'
+# gem 'hyper-model'
+
+gem 'hyperloop', git: 'https://github.com/ruby-hyperloop/hyperloop.git'
+
+# gem 'hyper-rails', git: 'https://github.com/ruby-hyperloop/hyper-rails.git'
+# gem 'opal-rails', '0.9.1'
+# gem 'opal-browser', '0.2.0'
+# gem 'hyper-react', '0.11.0'
+# gem 'hyper-mesh', '0.5.3'
+# gem 'hyper-router', '2.4.0'
+
+# gem 'therubyracer', platforms: :ruby
 
 gem 'opal_hot_reloader', git: 'https://github.com/fkchang/opal-hot-reloader.git'
 gem 'foreman'

@@ -1,4 +1,4 @@
-class Show < React::Component::Base
+class Show < Hyperloop::Component
 
   # param :my_param
   # param param_with_default: "default value"

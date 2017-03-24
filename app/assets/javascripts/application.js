@@ -1,12 +1,5 @@
-
-//= require 'webpack/client_only'
-//= require 'hyperloop'
-//= require 'react_ujs'
-
-//= require jquery.min
+//= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require hyperloop-loader
 
-//= require_tree .
-
-Opal.load('hyperloop');
+//= require 'webpack/client_only.js'

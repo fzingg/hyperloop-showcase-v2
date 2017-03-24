@@ -1,6 +1,6 @@
-class PlaneventsList < React::Component::Base
+class PlaneventsList < Hyperloop::Component
 
-  define_state new_planevent: Hash.new { |h, k| h[k] = '' }
+  state new_planevent: Hash.new { |h, k| h[k] = '' }
 
   before_mount do
     # note that this will lazy load posts
@@ -82,7 +82,7 @@ class PlaneventsList < React::Component::Base
   end
 end
 
-class PlaneventsListItem < React::Component::Base
+class PlaneventsListItem < Hyperloop::Component
   param :planevent
 
   def render

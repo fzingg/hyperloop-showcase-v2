@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  mount HyperMesh::Engine => '/rr'
+  mount Hyperloop::Engine => '/rr'
   root 'home#show'
   
 end
